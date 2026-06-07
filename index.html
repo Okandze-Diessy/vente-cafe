@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café à proximité | Vente de café en ligne | Café grain | Café en gros pour particulier | Café Rose</title>
+  <meta name="description" content="Découvrez Café Rose, votre destination pour le meilleur café à proximité. Achetez du café en ligne, café grain et café en gros pour particulier. Qualité et satisfaction garanties.">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- En-tête -->
+  <header>
+    <div class="logo">☕ Café Rose</div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="nos-produits.html">Nos produits</a></li>
+        <li><a href="apropos.html">À propos</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Bannière -->
+  <section class="banniere fade-in" id="accueil">
+    <div class="banniere-contenu">
+      <h1>Le meilleur café à proximité</h1>
+      <p>Découvrez nos cafés soigneusement sélectionnés pour les vrais amateurs.</p>
+      <a href="nos-produits.html" class="btn">Voir nos produits</a>
+    </div>
+  </section>
+
+  <!-- Statistiques -->
+  <section class="stats fade-up">
+    <h2 class="section-title">Nos Chiffres Clés</h2>
+    <p class="section-description">Des années de passion et de qualité au service du bon goût.</p>
+    <div class="stats-liste">
+      <div class="stat">
+        <span class="nombre" data-valeur="3200">0</span>
+        <p>Clients satisfaits</p>
+      </div>
+      <div class="stat">
+        <span class="nombre" data-valeur="85000">0</span>
+        <p>€ de chiffre d'affaires</p>
+      </div>
+      <div class="stat">
+        <span class="nombre" data-valeur="18">0</span>
+        <p>Employés passionnés</p>
+      </div>
+      <div class="stat">
+        <span class="nombre" data-valeur="5">0</span>
+        <p>Boutiques physiques</p>
+      </div>
+    </div>
+  </section>
+
+ <section class="video-section fade-up">
+  <div class="video-grid">
+    <!-- Colonne gauche : vidéo -->
+    <div class="video-container">
+      <video controls autoplay muted loop>
+        <source src="formation.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la lecture de vidéos.
+      </video>
+    </div>
+
+    <!-- Colonne droite : contenu -->
+    <div class="video-description">
+      <h2>Découvrez notre passion pour le café en vidéo</h2>
+      <p>Plongez dans l’univers de Café Rose à travers un documentaire inspirant qui met en lumière notre engagement envers la qualité, le commerce équitable et la satisfaction client.</p>
+      <a href="nos-produits.html" class="btn">Explorer nos cafés</a>
+    </div>
+  </div>
+</section>
+
+<!-- Bloc Partenaires -->
+<section class="partenaires fade-in">
+  <h2 class="section-title">Ils nous font confiance</h2>
+  <p class="section-description">Nos partenaires de confiance dans l’univers du café et de la gastronomie.</p>
+  <div class="logos">
+    <img src="data:image/png;base64,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" alt="Logo Nespresso - Café à proximité">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgvls7kDtAfgM86AE3SM2F4P3AnVYLYpPbWg&s" alt="Logo Lavazza - Vente de café en ligne">
+    <img src="data:image/jpeg;base64,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" alt="Logo Jacobs - Café grain">
+  </div>
+</section>
+
+  <!-- Témoignages -->
+  <section class="temoignages fade-in">
+    <h2 class="section-title">Ce que disent nos clients</h2>
+    <p class="section-description">Votre satisfaction est notre plus belle récompense.</p>
+    <div class="temoignage-liste">
+      <div class="temoin">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sophie - Café à proximité">
+        <p>“Le meilleur café que j’ai goûté depuis des années !”</p>
+        <strong>- Sophie</strong>
+      </div>
+      <div class="temoin">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Marc - Vente de café en ligne">
+        <p>“Livraison rapide, emballage soigné et qualité exceptionnelle.”</p>
+        <strong>- Marc</strong>
+      </div>
+      <div class="temoin">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Fatima - Café grain">
+        <p>“Je recommande vivement Café Rose à tous les amateurs de bon café.”</p>
+        <strong>- Fatima</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq fade-up">
+    <h2 class="section-title">Questions fréquentes</h2>
+    <p class="section-description">Des réponses claires à vos interrogations.</p>
+    <div class="faq-liste">
+      <details>
+        <summary>Livrez-vous à l’international ?</summary>
+        <p>Oui, nous livrons dans toute l’Europe et certaines régions d’Afrique.</p>
+      </details>
+      <details>
+        <summary>Vos cafés sont-ils bio ?</summary>
+        <p>Une grande partie de notre sélection est certifiée biologique et équitable.</p>
+      </details>
+      <details>
+        <summary>Quels modes de paiement acceptez-vous ?</summary>
+        <p>Nous acceptons PayPal, cartes bancaires et virements bancaires.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <!-- Pied de page -->
+  <footer>
+    <div class="footer-contenu">
+      <div class="footer-col">
+        <h3>À propos</h3>
+        <p>Café Rose est une entreprise passionnée par le café de qualité, travaillant avec des producteurs responsables depuis 2010. Découvrez notre café à proximité et achetez en ligne.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="nos-produits.html">Nos produits</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Suivez-nous</h3>
+        <p>Facebook | Instagram | Twitter</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Café Rose - Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Script pour les stats dynamiques -->
+  <script>
+    const stats = document.querySelectorAll(".nombre");
+    stats.forEach((el) => {
+      let valeur = +el.dataset.valeur;
+      let compteur = 0;
+      let interval = setInterval(() => {
+        if (compteur < valeur) {
+          compteur += Math.ceil(valeur / 100);
+          el.textContent = compteur > valeur ? valeur : compteur;
+        } else {
+          clearInterval(interval);
+        }
+      }, 30);
+    });
+  </script>
+
+</body>
+</html>
